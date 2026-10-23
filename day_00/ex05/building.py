@@ -9,7 +9,7 @@ def main():
         puis on va forcer l'utilisateur a nous mettre une chaine correcte
         s'il en pas deja passer plusieurs.
         Ensuite on va effectuer dans l'ordre le calcul des uppers, des lowers,
-        des punctuations, des spaces et des digits
+        des punctuations, des spaces et des digits et une addition globale
         '''
         assert len(sys.argv) <= 2, "more than one argument is provided"
         if (len(sys.argv) == 1):
